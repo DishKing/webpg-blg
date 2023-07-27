@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  </head>
+<body>
+
+<h1>Welcome to my webpage - If you're looking for excitement, you've come to the right place!</h1>
+ <p1> </p1> 
+  <ul>
+    {% for x in mywelcome %}
+      <li>{{ x.firstname }} {{ x.lastname }}</li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>
